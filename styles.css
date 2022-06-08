@@ -1,7 +1,39 @@
+:root {
+    --blue: #02254b;
+    --gold: #9c8321;
+}
+
 * {
     font-family: 'Roboto', sans-serif;
+    color: var(--blue);
 }
 
 h1 {
     text-align: center;
+    color: var(--blue);
+}
+
+.recipe-title {
+    color: var(--gold);
+    font-style: italic;
+}
+
+strong {
+    color: var(--gold);
+}
+
+ul > li::marker {
+    color: var(--gold);
+}
+
+#description-container {
+
+}
+
+#recipe-image img {
+    display: block;
+    height: auto;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }

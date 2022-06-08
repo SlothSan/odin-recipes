@@ -9,15 +9,12 @@
     color: var(--blue);
 }
 
+body {
+    background-color: var(--offwhite);
+}
 
 h1 {
     text-align: center;
-    color: var(--blue);
-}
-
-.recipe-title {
-    color: var(--gold);
-    font-style: italic;
 }
 
 #recipe-image img {
@@ -29,7 +26,24 @@ h1 {
     padding-bottom: 30px;
 }
 
+h1, h3, h4 {
+    color: var(--gold);
+    font-style: italic;
+    text-decoration: underline;
+}
 
+h4 {
+    font-style: normal;
+}
 
+li {
+    margin-left: -25px;
+}
 
+li::marker {
+    color: var(--gold);
+}
 
+strong {
+    color: var(--gold);
+}
